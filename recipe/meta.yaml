@@ -1,4 +1,4 @@
-{% set version = "1.83" %}
+{% set version = "1.84" %}
 
 package:
   name: surelog
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/chipsalliance/surelog/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 3add228495a6ef0e0e3921cb20c30ae09a32c04c76faab4f1a78e546e1d98d86
+  sha256: ddcbc0d943ee52f2487b7a064c57a8239d525efd9a45b1f3e3e4a96a56cb3377
 
 build:
   number: 0
